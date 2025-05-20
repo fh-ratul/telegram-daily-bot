@@ -83,7 +83,8 @@ while True:
         now = datetime.utcnow()
         print(f"[⏰ UTC Time Check] {now}")
 
-        if now.hour == 23 and now.minute == 0:  # 5:00 AM BD = 11:00 PM UTC
+        if now.hour == 23 and now.minute == 30:
+
             # Countdown
             days_remaining = (GOAL_DATE - now).days
 
